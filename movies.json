@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Geostorm",
+      "description": "Geostorm is a 2017 American science-fiction action film",
+      "posterURL": "https://upload.wikimedia.org/wikipedia/en/7/76/Geostorm_official_teaser_poster.jpg",
+      "rating": 4,
+      "annonceURL": "public/video/Geostorm - Bande Annonce Officielle (VF) - Gerard Butler _ Ed Harris.mp4"
+    },
+    {
+      "title": "Greenland",
+      "description": "A family fights for survival as a planet-killing comet races toward Earth",
+      "posterURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0VeivXbHpw-IDwoCdBGKKHTt_gcypXA06vQ&usqp=CAU",
+      "rating": 3,
+      "annonceURL": "public/video/GREENLAND Bande Annonce VF (2020) Gerard Butler, Film Catastrophe.mp4"
+    },
+    {
+      "title": "Hunter Killer",
+      "description": "Hunter Killer is a 2018 American action thriller film",
+      "posterURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUdSQDsrBcCIU7muyInTsK19SznHwu2Rd8Jw&usqp=CAU",
+      "rating": 4,
+      "annonceURL":"public/video/HUNTER KILLER Bande Annonce VF (2018) Action, Thriller.mp4"
+    }
+  ]
+  

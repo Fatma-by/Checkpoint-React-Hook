@@ -1,11 +1,18 @@
 // AddMovie.js
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import useMoviesStroe from "../moviesStore";
 
-const AddMovie = ({ onAddMovie }) => {
+
+const AddMovie = () => {
+  const [movies, setMovies] = useMoviesStroe((state) => [
+    state.movies,
+    state.setMovies,
+  ]);
+
   const [newMovie, setNewMovie] = useState({
-    title: '',
-    description: '',
-    posterURL: '',
+    title: "",
+    description: "",
+    posterURL: "",
     rating: 1,
   });
 
@@ -18,11 +25,13 @@ const AddMovie = ({ onAddMovie }) => {
   };
 
   const handleAddMovie = () => {
-    onAddMovie(newMovie);
+    const aux = movies;
+    aux.push(newMovie);
+    setMovies(aux);
     setNewMovie({
-      title: '',
-      description: '',
-      posterURL: '',
+      title: "",
+      description: "",
+      posterURL: "",
       rating: 1,
     });
   };
